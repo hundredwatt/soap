@@ -12,8 +12,8 @@ A profanity detector for random strings
 
 # Purpose
 
-Soap was extracted from a url shortener where it was to ensure the
-random identifier used in the short url did not accidentally contain 
+Soap was extracted from a url shortener where it ensured that the
+random identifiers created for use in short urls did not accidentally contain 
 any offensive words
 
 # Contributing to Soap
