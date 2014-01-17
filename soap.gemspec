@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('active_support')
 
   # ensure the gem is built out of versioned files
-  gem.files = Dir['Rakefile', '{lib,test}/**/*', 'README*', 'LICENSE*'] & `git ls-files -z`.split('\0')
+  gem.files = Dir['Rakefile', '{lib,test}/**/*', 'README*', 'LICENSE*'] & (`git ls-files`.split)
 end
